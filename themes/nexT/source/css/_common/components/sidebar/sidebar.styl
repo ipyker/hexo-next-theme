@@ -1,0 +1,63 @@
+.sidebar {
+  background: url(/images/sidebar-bg1.jpg) repeat !important;
+  background-image: url(/images/sidebar-bg1.jpg) repeat !important;
+  background-size: cover!important;
+  position: fixed!important;
+  right: 0!important;
+  top: 0!important;
+  bottom: 0!important;
+  width: 0;
+
+  a, span.exturl {
+    color: $grey-dark;
+    border-bottom-color: $black-light;
+    &:hover {
+      color: $gainsboro;
+      border-bottom-color: $gainsboro;
+    }
+  }
+
+  +tablet-mobile() {
+    hide() if not hexo-config('sidebar.onmobile');
+  }
+}
+
+.sidebar-inner {
+  position: relative;
+  padding: 20px 10px;
+  color: $grey-dark;
+  text-align: center;
+}
+
+.site-overview-wrap {
+  overflow: hidden;
+}
+
+.site-overview {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.cc-license {
+  margin-top: 10px;
+  text-align: center;
+
+  .cc-opacity {
+    opacity: 0.7;
+    border-bottom: none;
+
+    &:hover { opacity: 0.9; }
+  }
+
+  img { display: inline-block; }
+}
+
+@import "sidebar-toggle";
+@import "sidebar-author";
+@import "sidebar-author-links";
+@import "sidebar-button";
+@import "sidebar-blogroll";
+@import "sidebar-nav";
+@import "site-state" if hexo-config('site_state');
+@import "sidebar-toc" if hexo-config('toc.enable');
+@import "sidebar-dimmer" if hexo-config('sidebar.dimmer');

@@ -1,0 +1,47 @@
+// Custom styles.
+// 主页文章添加阴影效果
+.post {
+margin-top: 60px;
+margin-bottom: 60px;
+padding: 25px;
+-webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+-moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+}
+
+//设置背景图片
+//body {
+//    background:url(https://images6.alphacoders.com/613/thumb-350-613932.png);
+//    background-repeat: repeat;
+//    background-attachment:fixed;
+//    background-position:50% 50%;
+//    background-size:cover;
+//}
+//改变背景色和透明度
+//.main-inner {
+//   background: #fff;
+//   opacity: 0.9;
+//}
+
+//文章内链接文本样式
+.post-body p a{
+  color: #1C86EE;
+  border-bottom: none;
+  border-bottom: 1px solid #1C86EE;
+  &:hover {
+    color: #fc6423;
+    border-bottom: none;
+    border-bottom: 1px solid #fc6423;
+  }
+}
+
+// 修改选中字符的颜色
+/* webkit, opera, IE9 */
+::selection { 
+    background: #00c4b6;
+    color: #f7f7f7; 
+}
+/* firefox */
+::-moz-selection { 
+    background: #00c4b6;
+    color: #f7f7f7;    
+}
