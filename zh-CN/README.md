@@ -54,22 +54,8 @@
 * 增加了fastclick解决延迟问题
 * 增加了gulp压缩网页css js样式
 
-## hexo主题应忽略push的文件
-**下载到本地后，记得把.gitignore文件修改成以下内容**
-
->.DS_Store
->
->Thumbs.db
->
->db.json
->
->*.log
->
->node_modules/
->
->public/
->
->.deploy*/
+## 加载node_modules
+运行`npm install hexo --save`
 
 ## 用法
 next主题下载下来后，除了上述`目录`介绍的内容更新外，用户还需要更改一些自己的额外信息。

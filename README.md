@@ -54,22 +54,8 @@ We mainly performed the following configuration operations on the next theme.
 * Added fastclick to resolve latency issues
 * Added gulp compression web page css js style
 
-## Hexo theme should be ignored by the file
-**After downloading to local, remember to change the .gitignore file to the following**
-
->.DS_Store
->
->Thumbs.db
->
->db.json
->
->*.log
->
->node_modules/
->
->public/
->
->.deploy*/
+## load node_modules
+RUN `npm install hexo --save`
 
 ## usage
 After the next theme is downloaded, in addition to the content update described in the above `Directory`, the user also needs to change some of his own additional information.
