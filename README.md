@@ -54,10 +54,13 @@ We mainly performed the following configuration operations on the next theme.
 * Added fastclick to resolve latency issues
 * Added gulp compression web page css js style
 
-## load node_modules
-RUN `npm install hexo --save`
+## Operating Step
+1. Install[node.js](https://nodejs.org/en/)
+2. Install[git](https://git-scm.com/)
+3. clone  repository to local
+3. RUN `npm install hexo --save`to load node_modules
 
-## usage
+## Custom configuration items
 After the next theme is downloaded, in addition to the content update described in the above `Directory`, the user also needs to change some of his own additional information.
 ### Master configuration file _config.yml parameter
 ```yaml

@@ -54,10 +54,13 @@
 * 增加了fastclick解决延迟问题
 * 增加了gulp压缩网页css js样式
 
-## 加载node_modules
-运行`npm install hexo --save`
+## 运行步骤
+1. 安装[node.js](https://nodejs.org/en/)
+2. 安装[git](https://git-scm.com/)
+3. 克隆本仓库到本地
+3. 运行`npm install hexo --save`加载node_modules
 
-## 用法
+## 自定义配置项
 next主题下载下来后，除了上述`目录`介绍的内容更新外，用户还需要更改一些自己的额外信息。
 ### 主站配置文件_config.yml参数
 ```yaml
