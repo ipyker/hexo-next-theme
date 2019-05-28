@@ -58,7 +58,7 @@
 1. 安装 [[node.js]](https://nodejs.org/en/)
 2. 安装 [[git]](https://git-scm.com/)
 3. 克隆本仓库到本地
-3. 运行`npm install hexo --save`加载node_modules
+3. 进入next-template目录运行`npm install hexo --save`加载node_modules
 
 ## 自定义配置项
 next主题下载下来后，除了上述`目录`介绍的内容更新外，用户还需要更改一些自己的额外信息。
