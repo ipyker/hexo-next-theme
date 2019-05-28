@@ -55,8 +55,8 @@
 * 增加了gulp压缩网页css js样式
 
 ## 运行步骤
-1. 安装[node.js](https://nodejs.org/en/)
-2. 安装[git](https://git-scm.com/)
+1. 安装 [[node.js]](https://nodejs.org/en/)
+2. 安装 [[git]](https://git-scm.com/)
 3. 克隆本仓库到本地
 3. 运行`npm install hexo --save`加载node_modules
 
